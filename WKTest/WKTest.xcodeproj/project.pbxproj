@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C5B84D12073B0ED004DC517 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5B84D02073B0ED004DC517 /* AppDelegate.m */; };
+		4C5B84D42073B0ED004DC517 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5B84D32073B0ED004DC517 /* ViewController.m */; };
+		4C5B84D62073B0ED004DC517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5B84D52073B0ED004DC517 /* Assets.xcassets */; };
+		4C5B84DC2073B0ED004DC517 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5B84DB2073B0ED004DC517 /* main.m */; };
+		4C5B84E72073B0ED004DC517 /* WKTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5B84E62073B0ED004DC517 /* WKTestTests.m */; };
+		4C5B84F220740096004DC517 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C5B84F120740096004DC517 /* MainMenu.xib */; };
+		D9616BCBD283858BE7FEC980 /* NSWindow+PopoverKey.m in Sources */ = {isa = PBXBuildFile; fileRef = D9647305930E0BAB128FC0A1 /* NSWindow+PopoverKey.m */; };
+		D968CF03421273E68864B0B7 /* NSView+SimpleConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = D96500C66635F027DFF68157 /* NSView+SimpleConstraints.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C5B84E32073B0ED004DC517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C5B84C42073B0ED004DC517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5B84CB2073B0ED004DC517;
+			remoteInfo = WKTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C5B84CC2073B0ED004DC517 /* WKTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5B84CF2073B0ED004DC517 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C5B84D02073B0ED004DC517 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C5B84D22073B0ED004DC517 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C5B84D32073B0ED004DC517 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C5B84D52073B0ED004DC517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C5B84DA2073B0ED004DC517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5B84DB2073B0ED004DC517 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C5B84DD2073B0ED004DC517 /* WKTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WKTest.entitlements; sourceTree = "<group>"; };
+		4C5B84E22073B0ED004DC517 /* WKTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5B84E62073B0ED004DC517 /* WKTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKTestTests.m; sourceTree = "<group>"; };
+		4C5B84E82073B0ED004DC517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5B84F120740096004DC517 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		D9634CD54524217EB17B8A5E /* NSView+SimpleConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+SimpleConstraints.h"; sourceTree = "<group>"; };
+		D9647305930E0BAB128FC0A1 /* NSWindow+PopoverKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+PopoverKey.m"; sourceTree = "<group>"; };
+		D964FC7B0E695899F7BA49CD /* NSWindow+PopoverKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+PopoverKey.h"; sourceTree = "<group>"; };
+		D96500C66635F027DFF68157 /* NSView+SimpleConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+SimpleConstraints.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C5B84C92073B0ED004DC517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5B84DF2073B0ED004DC517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C5B84C32073B0ED004DC517 = {
+			isa = PBXGroup;
+			children = (
+				4C5B84CE2073B0ED004DC517 /* WKTest */,
+				4C5B84E52073B0ED004DC517 /* WKTestTests */,
+				4C5B84CD2073B0ED004DC517 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C5B84CD2073B0ED004DC517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C5B84CC2073B0ED004DC517 /* WKTest.app */,
+				4C5B84E22073B0ED004DC517 /* WKTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C5B84CE2073B0ED004DC517 /* WKTest */ = {
+			isa = PBXGroup;
+			children = (
+				4C5B84CF2073B0ED004DC517 /* AppDelegate.h */,
+				4C5B84D02073B0ED004DC517 /* AppDelegate.m */,
+				4C5B84D22073B0ED004DC517 /* ViewController.h */,
+				4C5B84D32073B0ED004DC517 /* ViewController.m */,
+				4C5B84D52073B0ED004DC517 /* Assets.xcassets */,
+				4C5B84DA2073B0ED004DC517 /* Info.plist */,
+				4C5B84DB2073B0ED004DC517 /* main.m */,
+				4C5B84DD2073B0ED004DC517 /* WKTest.entitlements */,
+				D96500C66635F027DFF68157 /* NSView+SimpleConstraints.m */,
+				D9634CD54524217EB17B8A5E /* NSView+SimpleConstraints.h */,
+				4C5B84F120740096004DC517 /* MainMenu.xib */,
+				D9647305930E0BAB128FC0A1 /* NSWindow+PopoverKey.m */,
+				D964FC7B0E695899F7BA49CD /* NSWindow+PopoverKey.h */,
+			);
+			path = WKTest;
+			sourceTree = "<group>";
+		};
+		4C5B84E52073B0ED004DC517 /* WKTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C5B84E62073B0ED004DC517 /* WKTestTests.m */,
+				4C5B84E82073B0ED004DC517 /* Info.plist */,
+			);
+			path = WKTestTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C5B84CB2073B0ED004DC517 /* WKTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5B84EB2073B0ED004DC517 /* Build configuration list for PBXNativeTarget "WKTest" */;
+			buildPhases = (
+				4C5B84C82073B0ED004DC517 /* Sources */,
+				4C5B84C92073B0ED004DC517 /* Frameworks */,
+				4C5B84CA2073B0ED004DC517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WKTest;
+			productName = WKTest;
+			productReference = 4C5B84CC2073B0ED004DC517 /* WKTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C5B84E12073B0ED004DC517 /* WKTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5B84EE2073B0ED004DC517 /* Build configuration list for PBXNativeTarget "WKTestTests" */;
+			buildPhases = (
+				4C5B84DE2073B0ED004DC517 /* Sources */,
+				4C5B84DF2073B0ED004DC517 /* Frameworks */,
+				4C5B84E02073B0ED004DC517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5B84E42073B0ED004DC517 /* PBXTargetDependency */,
+			);
+			name = WKTestTests;
+			productName = WKTestTests;
+			productReference = 4C5B84E22073B0ED004DC517 /* WKTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C5B84C42073B0ED004DC517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Marko Cicak";
+				TargetAttributes = {
+					4C5B84CB2073B0ED004DC517 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					4C5B84E12073B0ED004DC517 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C5B84CB2073B0ED004DC517;
+					};
+				};
+			};
+			buildConfigurationList = 4C5B84C72073B0ED004DC517 /* Build configuration list for PBXProject "WKTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C5B84C32073B0ED004DC517;
+			productRefGroup = 4C5B84CD2073B0ED004DC517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C5B84CB2073B0ED004DC517 /* WKTest */,
+				4C5B84E12073B0ED004DC517 /* WKTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C5B84CA2073B0ED004DC517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5B84D62073B0ED004DC517 /* Assets.xcassets in Resources */,
+				4C5B84F220740096004DC517 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5B84E02073B0ED004DC517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C5B84C82073B0ED004DC517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5B84D42073B0ED004DC517 /* ViewController.m in Sources */,
+				4C5B84DC2073B0ED004DC517 /* main.m in Sources */,
+				4C5B84D12073B0ED004DC517 /* AppDelegate.m in Sources */,
+				D968CF03421273E68864B0B7 /* NSView+SimpleConstraints.m in Sources */,
+				D9616BCBD283858BE7FEC980 /* NSWindow+PopoverKey.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5B84DE2073B0ED004DC517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5B84E72073B0ED004DC517 /* WKTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C5B84E42073B0ED004DC517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5B84CB2073B0ED004DC517 /* WKTest */;
+			targetProxy = 4C5B84E32073B0ED004DC517 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C5B84E92073B0ED004DC517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4C5B84EA2073B0ED004DC517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C5B84EC2073B0ED004DC517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F253NVK8A9;
+				INFOPLIST_FILE = WKTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.codecentric.WKTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		4C5B84ED2073B0ED004DC517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WKTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.codecentric.WKTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		4C5B84EF2073B0ED004DC517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WF5L7UK565;
+				INFOPLIST_FILE = WKTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.codecentric.WKTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKTest.app/Contents/MacOS/WKTest";
+			};
+			name = Debug;
+		};
+		4C5B84F02073B0ED004DC517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WF5L7UK565;
+				INFOPLIST_FILE = WKTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.codecentric.WKTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKTest.app/Contents/MacOS/WKTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C5B84C72073B0ED004DC517 /* Build configuration list for PBXProject "WKTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5B84E92073B0ED004DC517 /* Debug */,
+				4C5B84EA2073B0ED004DC517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5B84EB2073B0ED004DC517 /* Build configuration list for PBXNativeTarget "WKTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5B84EC2073B0ED004DC517 /* Debug */,
+				4C5B84ED2073B0ED004DC517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5B84EE2073B0ED004DC517 /* Build configuration list for PBXNativeTarget "WKTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5B84EF2073B0ED004DC517 /* Debug */,
+				4C5B84F02073B0ED004DC517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C5B84C42073B0ED004DC517 /* Project object */;
+}
