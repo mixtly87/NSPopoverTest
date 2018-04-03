@@ -24,7 +24,7 @@
     id v = @{ @"web": self.webView, @"text": self.textField };
     [self.view addFor:v constraints:@"|[web]|"];
     [self.view addFor:v constraints:@"|-15-[text]-15-|"];
-    [self.view addFor:v constraints:@"V:|[text(50)]-0-[web]|"];
+    [self.view addFor:v constraints:@"V:|-5-[text(50)]-10-[web]|"];
 
     [self.view addConstraint:[NSLayoutConstraint
             constraintWithItem:self.view attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual
@@ -39,7 +39,6 @@
     [super viewDidLoad];
     NSURL* url = [NSURL URLWithString:@"https://www.google.com"];
     NSURLRequest* request = [NSURLRequest requestWithURL:url];
-    NSLog(@"REQUEST: %@", request);
     [self.webView loadRequest:request];
 }
 

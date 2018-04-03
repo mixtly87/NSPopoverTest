@@ -24,6 +24,7 @@
     _popover.behavior = NSPopoverBehaviorTransient;
 
     _statusItem = [NSStatusBar.systemStatusBar statusItemWithLength:24];
+    _statusItem.button.image = [NSImage imageNamed:@"icon"];
     _statusItem.button.target = self;
     _statusItem.button.action = @selector(showContextMenu:);
     [_statusItem sendActionOn:NSEventMaskLeftMouseUp | NSEventMaskRightMouseUp];
